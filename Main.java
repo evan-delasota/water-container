@@ -18,8 +18,6 @@ class Main {
         int width = Math.min(arr[j], curr);
         if (length * width > max) {
           max = length * width;
-          System.out.println("width: " + width);
-          System.out.println("length: " + length);
         }
       }
     }
